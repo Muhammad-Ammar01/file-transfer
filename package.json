@@ -1,0 +1,16 @@
+{
+  "name": "file-transfer",
+  "version": "1.0.0",
+  "description": "Send photos, videos, documents and whole folders between devices with a 6-digit code. Chunked, hash-verified and resumable.",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix client install && npm run build",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "test": "npm --prefix server test"
+  }
+}

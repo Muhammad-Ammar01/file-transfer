@@ -1,0 +1,17 @@
+# dependencies and build output
+node_modules/
+dist/
+
+# files people transfer, and the server database (never commit these)
+server/storage/
+
+# personal folders that are not part of the app
+Data/
+Phase2/
+
+# editor / OS / logs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
