@@ -1,5 +1,5 @@
 # File Transfer
-
+Muhammad Ammar
 Send photos, videos and documents from one device to another through a small relay server.
 The sender gets a 6-digit code (and a link); the receiver opens the link or types the code and downloads.
 Every chunk and the whole file are hash-checked on the way up and on the way down.
